@@ -17,7 +17,7 @@
 
 ## 2. DB Migration, Seeding 
 - php artisan migrate:refresh --seed
-# (for one table migration it requires 3 changes in factories, migration, seeder).
+<br>(for one table migration it requires 3 changes in factories, migration, seeder).
 
 ## 3. Better to use Service Class to query/business logic, make controller skiny.
 - Product Service is created

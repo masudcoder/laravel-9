@@ -9,26 +9,21 @@
 
 ## Laravel 9 Simple Project
    
-
 ## 1. Set up the Project:
-
 - clone the repo
 - cd laravel-9
 - ./vendor/bin/sail up
 - browse http://localhost
 
-## 2. DB Migration, Seeding
-
-  For one table and its seeding it requires 3 things to be done in factories, migration, seeder inside database folder.
-  From root of the project run the following command
-
-   - php artisan migrate:refresh --seed
-
+## 2. DB Migration, Seeding 
+- php artisan migrate:refresh --seed
+# (for one table migration it requires 3 changes in factories, migration, seeder).
 
 ## 3. Better to use Service Class to query/business logic, make controller skiny.
-   - Product Service is created
+- Product Service is created
 
-## 4. See Route File to see how to write route. it has some differences  than previous version.  
+## 4. Route File
+      Please check how to write route. it has some differences  than previous version.  
 
 
 
